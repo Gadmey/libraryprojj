@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color
 }
 .header{
     height: 90px;
@@ -17,6 +17,7 @@ body{
     width: 1440px;
 }
 .selection{
+    background-image: url(img\ project\ library/overlay.png);
     display :flex;
     align-items: center; 
     justify-content: space-between;
@@ -48,4 +49,3 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-}
