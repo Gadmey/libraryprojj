@@ -4,20 +4,20 @@
     border: none;
     text-decoration: none;
 }
-body{
-    background-color
-}
 .header{
-    height: 90px;
+    background-color: black;
     display :flex;
     justify-content: center;
     align-items: center;
 }
+a:hover {
+    text-decoration: underline;
+   }
 .container{
     width: 1440px;
 }
-.selection{
-    background-image: url(img\ project\ library/overlay.png);
+.headerselection{
+    height: 90px;
     display :flex;
     align-items: center; 
     justify-content: space-between;
@@ -49,3 +49,34 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+.sectionBook{
+    background:linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%), url(imgg/pupa.jpg);
+    display: flex;
+    height: 600px;
+    background-size: 100%;
+    background-position: center center;
+}
+.block{
+    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    width: 520px;
+    height: 150px;
+    padding: 35px 40px;
+    flex-shrink: 0;
+    display: flex;
+}
+.blocktext{
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
