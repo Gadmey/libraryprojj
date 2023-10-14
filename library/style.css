@@ -4,6 +4,11 @@
     border: none;
     text-decoration: none;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .header{
     background-color: black;
     display :flex;
@@ -13,6 +18,9 @@
 a:hover {
     text-decoration: underline;
    }
+button:hover{
+    background-color: #BB945F;
+}
 .container{
     width: 1440px;
 }
@@ -53,9 +61,11 @@ li{
 .sectionBook{
     background:linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%), url(imgg/pupa.jpg);
     display: flex;
+    justify-content: center;
     height: 600px;
     background-size: 100%;
     background-position: center center;
+    width: 100%;
 }
 .block{
     margin-top: 220px;
@@ -79,4 +89,184 @@ li{
     line-height: 50px;
     letter-spacing: 3px;
     line-height: 50px;
+}
+.about{
+
+}
+.TextAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HAbout{ 
+    margin-top: 20px;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.tire{
+    margin-top: 20px;
+    background: #0C0C0E;
+    width: 50px;
+    height: 1px;
+}
+.PAbout{
+    margin-top: 20px;
+    color: #000;        
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;  
+}
+.carusel{
+}
+.slide1{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.circle {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.c1{
+    margin-right: 5px;
+    width: 16px; 
+    height: 16px;
+    background:#BB945F;
+    border-radius: 50%;
+}
+.c2{
+    margin-right: 5px;
+    width: 16px; 
+    height: 16px;
+    background:#000000;
+    border-radius: 50%;
+}
+.favSeasP{
+    margin-top: 60px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.favSeas{
+    margin-top: 40px;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+.firstsecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.board1{
+    margin-top: 40px;
+    width: 550px;
+    height:  555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 1px;
+}
+.board1 img{
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -265px;
+    margin-left: 390px;
+}
+.board2 img{
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -185px;
+    margin-left: 390px;
+    }
+.board1P{
+    margin-left: 20px;
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.tire2{
+    margin-top: 0px;
+    margin-left: 20px;
+    background: #BB945F;
+    width: 50px;
+    height: 1px;
+}
+.Eaters{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 40px; /* 266.667% */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+pre{
+    margin-top: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.board2{
+    margin-top: 40px;
+    width: 550px;
+    height:  555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 1px;
+}
+.queenfix{
+    margin-top: -145px;
+}
+.board4{
+    margin-top: 40px;
+    width: 550px;
+    height:  555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 1px;
+}
+.board4 img{
+    width: 200px;
+    height: 300px;
+    margin-left: 390px;
 }

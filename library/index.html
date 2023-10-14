@@ -14,13 +14,15 @@
           <nav>
             <div class="slevasprava">
               <ul>
-                <li><a style="color: white" href="about"> About</a></li>
-                <li><a style="color: white" href="Favorites"> Favorites</a></li>
+                <li><a style="color: white" href="#About"> About</a></li>
                 <li>
-                  <a style="color: white" href="Coffee shop"> Coffee shop</a>
+                  <a style="color: white" href="#Favorites"> Favorites</a>
                 </li>
-                <li><a style="color: white" href="Contacts"> Contacts</a></li>
-                <li><a style="color: white" href="Library"> Library</a></li>
+                <li>
+                  <a style="color: white" href="#Coffee shop"> Coffee shop</a>
+                </li>
+                <li><a style="color: white" href="#Contacts"> Contacts</a></li>
+                <li><a style="color: white" href="#Library"> Library</a></li>
               </ul>
               <img src="imgg/icon_profile.png" width="24" height="24" />
             </div>
@@ -30,15 +32,147 @@
     </header>
     <main>
       <section class="sectionBook">
-        <div class="block">
-          <p class="blocktext">
-            WELCOME <br />
-            TO THE BROOKLYN <br />
-            LIBRARY
-          </p>
+        <div class="container">
+          <div class="block">
+            <p class="blocktext">
+              WELCOME <br />
+              TO THE BROOKLYN <br />
+              LIBRARY
+            </p>
+          </div>
         </div>
       </section>
-      <section></section>
+      <div class="container">
+        <section class="about" id="About">
+          <div class="AboutContainer">
+            <div class="TextAbout">
+              <h2 class="HAbout">About</h2>
+              <hr class="tire" />
+              <p class="PAbout">
+                The Brooklyn Library is a free workspace, a large number of
+                books and a cozy coffee shop inside
+              </p>
+            </div>
+            <div class="carusel">
+              <div class="slide1" href="#slide1">
+                <img src="imgg/image 1.png" />
+                <img src="imgg/image 2.png" />
+                <img src="imgg/image 3.png" />
+              </div>
+              <div class="circle">
+                <button class="c1"></button>
+                <button class="c2"></button>
+                <button class="c2"></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="TextAbout">
+            <h2 class="HAbout" id="Favorites">Favorites</h2>
+            <hr class="tire" />
+          </div>
+          <p class="favSeasP">Pick fovorites of season</p>
+          <div class="favSeas">
+            <label>
+              <input
+                type="radio"
+                id="choise1"
+                name="favSeas"
+                checked
+                value="winter"
+              />
+              Winter
+            </label>
+            <label>
+              <input type="radio" id="choise2" name="favSeas" value="spring" />
+              Spring
+            </label>
+            <label for="choise3">
+              <input type="radio" id="choise3" name="favSeas" value="summer" />
+              Summer
+            </label>
+            <label>
+              <input type="radio" id="choise4" name="favSeas" value="autumn" />
+              Autumn
+            </label>
+          </div>
+          <div class="FavoriteBoard">
+            <div class="firstsecond">
+              <div class="board1">
+                <p class="board1P">Staff Picks</p>
+                <div class="tire2"></div>
+                <p class="Eaters">The Book Eaters <br />By Sunyi Dean</p>
+                <pre>
+    An Unusual Sci-Fi Story About A Book
+    Eater Woman Who Tries Desperately To
+    Save Der Dangerous Mind-Eater Son
+    From Tradition And Certain Death.
+    Complete With Dysfunctional Family
+    Values, Light Sapphic Romance, And A
+    Strong, Complex Protagonist. Not For
+    The Faint Of Heart.
+              </pre
+                >
+                <img src="imgg/10cccd6aa454e4250b40b38dda676c38.jpg" />
+              </div>
+              <div class="board2">
+                <p class="board1P">Staff Picks</p>
+                <div class="tire2"></div>
+                <p class="Eaters">Cackle <br />By Rachel Harrison</p>
+                <pre>
+    Are Your Halloween Yovies Of Choice
+    The Witches Of Eastwick And Practical
+    Magic? Look No Further Than Here - 
+    Where A Woman Recovering From A 
+    Breakup Moves To A Quaint Town In
+    Upstate New York And Befriends A 
+    Beautiful Witch.</pre
+                >
+                <img src="imgg/f36dd3f474e8bec0fe1d8faf30fd4d2d.jpg" />
+              </div>
+            </div>
+            <div class="firstsecond">
+              <div class="board1">
+                <p class="board1P">Staff Picks</p>
+                <div class="tire2"></div>
+                <p class="Eaters">
+                  Dante: Poet of the Secular World <br />By Erich Auerbach
+                </p>
+                <pre>
+    Auerbach's engaging book places the
+    'Comedy' within the tradition of epic,
+    tragedy, and philosophy in general,
+    arguing for Dante's uniqueness as one
+    who raised the individual and his
+    drama of soul into something of
+    divine significance—an inspired
+    introduction to Dante's main themes.
+              </pre
+                >
+                <img src="imgg/0b93ac3bfa6d9dba2a784ea5c4d20693.jpg" />
+              </div>
+              <div class="board4">
+                <p class="board1P">Staff Picks</p>
+                <div class="tire2"></div>
+                <p class="Eaters">The Last Queen <br />By Clive Irving</p>
+                <pre>
+    A timely and revelatory new
+    biography of Queen Elizabeth (and her
+    family) exploring how the Windsors
+    have evolved and thrived as the
+    modern world has changed around
+    them.</pre
+                >
+                <img
+                  class="queenfix"
+                  src="imgg/a688a86b9c32cc990b64f2af40532142.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>
