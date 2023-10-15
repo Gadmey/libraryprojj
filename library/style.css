@@ -181,7 +181,7 @@ input[type="radio"] {
     flex-direction: row;
     justify-content: space-between;
 }
-.board1{
+.board{
     margin-top: 40px;
     width: 550px;
     height:  555px;
@@ -190,21 +190,59 @@ input[type="radio"] {
     background: #FFF;
     border-radius: 1px;
 }
-.board1 img{
+.boardimg{
     width: 200px;
     height: 300px;
     flex-shrink: 0;
-    margin-top: -265px;
-    margin-left: 390px;
+    margin-left: 360px;
+    margin-top: -350px
 }
-.board2 img{
+.boardimg2{
     width: 200px;
     height: 300px;
     flex-shrink: 0;
-    margin-top: -185px;
-    margin-left: 390px;
-    }
-.board1P{
+    margin-left: 360px;
+    margin-top: -350px
+
+}
+.boardimg3{
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-left: 365px;
+    margin-top: -350px
+}
+.buy{
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.buy2{
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+.buy3{
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    color: #ff9500;
+    margin-left: 20px;
+    margin-top: 115px;
+}
+.boardP{
     margin-left: 20px;
     color: #000;
     font-family: Forum;
@@ -243,30 +281,4 @@ pre{
     line-height: 40px; /* 266.667% */
     letter-spacing: 2px;
     text-transform: capitalize;
-}
-.board2{
-    margin-top: 40px;
-    width: 550px;
-    height:  555px;
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #FFF;
-    border-radius: 1px;
-}
-.queenfix{
-    margin-top: -145px;
-}
-.board4{
-    margin-top: 40px;
-    width: 550px;
-    height:  555px;
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #FFF;
-    border-radius: 1px;
-}
-.board4 img{
-    width: 200px;
-    height: 300px;
-    margin-left: 390px;
 }
