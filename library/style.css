@@ -282,3 +282,94 @@ pre{
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+.cofeshop{
+    row-gap: 20px;
+}
+.coffeP{
+    margin-top: 60px;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coffePre{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.coffemenu{
+    display: flex;
+    justify-content: space-between;
+}
+.columncofee{
+    row-gap: 20px;
+}
+.menu1 h3{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.columncoffeepre{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+}
+.tiremenu{
+    margin-top: 20px;
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+}
+.menu{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.menu p{
+    margin-top: 20px;
+    font-family: Forum;
+}
+.menu pre{
+    width: 140px;
+}
+.menu2 h3{
+    margin-left: 35px;
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
