@@ -373,3 +373,71 @@ pre{
     flex-direction: column;
     justify-content: flex-end;
 }
+.contactstart p{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.contactstart{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Pp{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.Ppp{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.Ppprow{
+    display: flex;
+    flex-direction: row;
+}
+.marginn{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 20px;
+}
+.Ppz{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.rovno{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 414px;
+}
+.columnn{
+    display: flex;
+    flex-direction: column;
+}
